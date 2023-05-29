@@ -1,0 +1,40 @@
+.DropD {
+  text-align: center;
+}
+
+.Dropdown-header {
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  height: 300px;
+  width: 700px;
+  background-color: rgb(5, 228, 228);
+  margin: auto;
+  margin-top: 15%;
+}
+h2 {
+  font-size: 22px;
+}
+.dropbtn {
+  padding: 20px;
+  width: 300px;
+  border-radius: 5px;
+  border: 0;
+  font-size: 20px;
+  color: rgb(72, 72, 72);
+  cursor: pointer;
+}
+.droplist{
+  width: 300px;
+  background-color: white;
+  color: rgb(72, 72, 72);
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px dashed grey;
+  padding: 0;
+  
+
+}
